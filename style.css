@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+
+}
+header{
+    position: relative;
+}
+.video-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 1050px;
+}
+.image-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    font-weight: 1000;
+}
+
+.nav{
+    font-size: 30px;
+}
+.container-nav{
+    width: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+padding: 10px;
+margin-right: 25px;
+font-size: 22px;
+font-weight: 100;
+
+}
+nav ul li a{
+   color: inherit;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 300px;
+}    
+
+.header-body{
+    margin-top: 150px;
+}
+
+
+.container-header-body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.header-body-section-discover{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.header-body-section-discover2{
+    font-size: 20px;
+    margin-top: 0;
+}
+.search-container{
+    background-color: white;
+    height: 50px;
+    width: 750px;
+    border-radius: 10px;
+    display: flex;
+    color: black;
+   
+}
+.detectionlocation{
+    color: red;
+    padding-left: 10px;
+}
+
+.detectionlocation2{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    padding-left: 5px;
+    outline: none;
+}
+.search-item{
+    color:#596378;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.line{
+    padding: 12px 10px;
+  
+}
+.search-restaurants{
+    margin-top: 0;
+    width: 300px;
+    height: 25px;
+    border: 0;
+    padding: 10px 10px;
+    outline: none;
+}
+
+/***section 1 feature***/
+
+
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.feature-image{
+    height: 350px;
+}
+.feature{
+    overflow: hidden;
+    text-align: center;
+    border: .1px solid rgb(213, 210, 210);
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+.feature:hover{
+    transition:tansform 0.7s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+.feature p, h3{
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+.feature-image img{
+    height: 300px;
+    width: 475px;
+    
+    
+}
+
+Section{
+    padding: 15px 10px;
+}
+
+
+/*****Section-2****/
+
+
+.section-2-left h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.section-2-left p{
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-size: 200;
+}
+
+.section-2-top{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-2-Right{
+   align-self: flex-end;
+    color: rgb(231, 85, 85);
+    cursor:pointer;
+}
+
+.section-2-item{
+    width: 350px;
+    height: 420px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.2);
+    margin-left: 10px
+    
+}
+.section-2-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.section-2-image-description{
+    padding: 0 10px;
+    position: absolute;
+    color: rgb(255, 0, 140);
+    cursor: pointer;
+}
+.section-2-image-description p{
+    margin: 0;
+    font-size: 20px;
+
+}
+.section-2-body{
+    display: flex;
+
+}
